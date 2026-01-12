@@ -1,0 +1,264 @@
+# Work Type → Persona Mappings
+# Used by suggest_personas.py to recommend experts for different work types
+# Updated: 2026-01-08 - Added execution-plan, hiring, messaging, simplification, writing types
+
+content:
+  description: "LinkedIn posts, articles, thought leadership"
+  primary:
+    - Justin Welsh
+    - Ethan Mollick
+  supporting:
+    - Geoffrey Moore
+    - Steven Pinker
+
+strategy:
+  description: "GTM strategy, market entry, positioning"
+  primary:
+    - Geoffrey Moore
+    - Sequoia Perspective
+  supporting:
+    - Aaron Ross
+    - Patrick Campbell
+
+execution-plan:
+  description: "Action items, OKRs, roadmaps, execution plans"
+  primary:
+    - Andy Grove
+    - Keith Rabois
+    - Claire Hughes Johnson
+  supporting:
+    - Eliyahu Goldratt
+    - W. Edwards Deming
+
+sales:
+  description: "Sales process, outreach, revenue"
+  primary:
+    - Aaron Ross
+    - Geoffrey Moore
+  supporting:
+    - Patrick Campbell
+
+operations:
+  description: "Workflows, processes, efficiency"
+  primary:
+    - Eliyahu Goldratt
+    - W. Edwards Deming
+  supporting:
+    - Keith Rabois
+    - Patrick Campbell
+
+product:
+  description: "Product strategy, features, roadmap"
+  primary:
+    - Marty Cagan
+    - Shreyas Doshi
+  supporting:
+    - Dan Horowitz
+    - Lenny Rachitsky
+
+product-discovery:
+  description: "User research, validation, problem finding"
+  primary:
+    - Marty Cagan
+    - Julie Zhuo
+  supporting:
+    - Lenny Rachitsky
+    - Shreyas Doshi
+
+product-growth:
+  description: "Metrics, loops, activation, retention"
+  primary:
+    - Lenny Rachitsky
+    - Nikita Bier
+  supporting:
+    - Patrick Campbell
+    - Dan Horowitz
+
+pm-craft:
+  description: "PM skills, prioritization, frameworks"
+  primary:
+    - Shreyas Doshi
+    - Marty Cagan
+  supporting:
+    - Lenny Rachitsky
+    - Julie Zhuo
+
+pricing:
+  description: "Pricing strategy, packaging, value"
+  primary:
+    - Patrick Campbell
+    - Geoffrey Moore
+  supporting:
+    - Sequoia Perspective
+
+fundraising:
+  description: "Pitch decks, investor materials"
+  primary:
+    - Sequoia Perspective
+    - Geoffrey Moore
+  supporting:
+    - Patrick Campbell
+
+innovation:
+  description: "New ideas, moonshots, first principles"
+  primary:
+    - Elon Musk
+    - Steve Jobs
+  supporting:
+    - Dan Horowitz
+    - Eliyahu Goldratt
+
+communication:
+  description: "Difficult conversations, team dynamics"
+  primary:
+    - Esther Perel
+    - Justin Welsh
+  supporting:
+    - W. Edwards Deming
+
+growth:
+  description: "User acquisition, virality, retention"
+  primary:
+    - Nikita Bier
+    - Justin Welsh
+  supporting:
+    - Dan Horowitz
+    - Aaron Ross
+
+hiring:
+  description: "Job descriptions, org design, team structure"
+  primary:
+    - Claire Hughes Johnson
+    - Keith Rabois
+  supporting:
+    - Andy Grove
+
+messaging:
+  description: "Value props, taglines, positioning statements"
+  primary:
+    - April Dunford
+    - Geoffrey Moore
+  supporting:
+    - Justin Welsh
+    - Patrick Campbell
+
+culture:
+  description: "Values, team dynamics, rituals, org culture"
+  primary:
+    - Claire Hughes Johnson
+    - Ray Dalio
+  supporting:
+    - Keith Rabois
+
+simplification:
+  description: "Cutting scope, removing features, focusing"
+  primary:
+    - Steve Jobs
+    - Keith Rabois
+  supporting:
+    - Frank Slootman
+    - Elon Musk
+
+turnaround:
+  description: "Urgent execution, raising standards, intensity"
+  primary:
+    - Frank Slootman
+    - Keith Rabois
+  supporting:
+    - Andy Grove
+
+writing:
+  description: "Documents, clarity, editing, prose style"
+  primary:
+    - Steven Pinker
+    - Paul Graham
+  supporting:
+    - Justin Welsh
+    - April Dunford
+
+decision-making:
+  description: "Complex decisions, risk assessment, uncertainty"
+  primary:
+    - Charlie Munger
+    - Annie Duke
+  supporting:
+    - Ray Dalio
+    - Warren Buffett
+
+startup:
+  description: "Early stage, product-market fit, growth"
+  primary:
+    - Paul Graham
+    - Marc Andreessen
+  supporting:
+    - Sequoia Perspective
+    - Geoffrey Moore
+
+competitive-strategy:
+  description: "Moats, competitive advantage, long-term positioning"
+  primary:
+    - Hamilton Helmer
+    - Warren Buffett
+  supporting:
+    - Geoffrey Moore
+    - Marc Andreessen
+
+marketing:
+  description: "Brand, differentiation, audience building"
+  primary:
+    - Seth Godin
+    - April Dunford
+  supporting:
+    - Justin Welsh
+    - Geoffrey Moore
+
+feedback:
+  description: "Performance feedback, difficult conversations"
+  primary:
+    - Kim Scott
+    - Claire Hughes Johnson
+  supporting:
+    - Esther Perel
+
+engineering:
+  description: "Tech strategy, engineering org, staff+ roles"
+  primary:
+    - Will Larson
+    - Camille Fournier
+  supporting:
+    - Kent Beck
+    - Keith Rabois
+
+engineering-practices:
+  description: "TDD, refactoring, code quality, CI/CD"
+  primary:
+    - Kent Beck
+    - John Carmack
+  supporting:
+    - Will Larson
+    - W. Edwards Deming
+
+performance:
+  description: "Optimization, systems, technical depth"
+  primary:
+    - John Carmack
+    - Kent Beck
+  supporting:
+    - Elon Musk
+
+tech-leadership:
+  description: "Tech lead, EM, manager path"
+  primary:
+    - Camille Fournier
+    - Will Larson
+  supporting:
+    - Kim Scott
+    - Claire Hughes Johnson
+
+design:
+  description: "Product design, UX, interface"
+  primary:
+    - Julie Zhuo
+    - Steve Jobs
+  supporting:
+    - Nikita Bier
