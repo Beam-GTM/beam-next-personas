@@ -2,7 +2,7 @@
 
 Quick reference for all available expert personas. See `config/work-type-mappings.yaml` for which personas to use for each work type.
 
-## All Personas (40)
+## All Personas (46)
 
 | Persona | Domain | Famous For | Best For |
 |---------|--------|------------|----------|
@@ -11,14 +11,18 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Annie Duke** | Decisions | "Thinking in Bets", poker champion | Uncertain decisions, probabilistic thinking |
 | **April Dunford** | Positioning | "Obviously Awesome", B2B positioning | Messaging, positioning, value props |
 | **Ben Horowitz** | Hard Decisions | "The Hard Thing About Hard Things", a16z | Layoffs, pivots, crisis, wartime leadership |
+| **BJ Fogg** | Behavior Design | "Tiny Habits", Fogg Behavior Model, Stanford | Onboarding, activation, behavior change, habits |
 | **Camille Fournier** | Eng Mgmt | "The Manager's Path", CTO | Eng management, tech lead transition |
+| **Cassie Kozyrkov** | Decision Intelligence | Google's Chief Decision Scientist | AI strategy, data decisions, when to use AI |
 | **Charlie Munger** | Decisions | Mental models, Berkshire Hathaway | Avoiding mistakes, multi-disciplinary thinking |
 | **Chris Voss** | Negotiation | "Never Split the Difference", FBI negotiator | Negotiations, difficult conversations, sales |
 | **Claire Hughes Johnson** | Leadership | "Scaling People", Stripe COO | Hiring, org design, culture, scaling |
 | **Dan Horowitz** | Product | Product strategy, scaling | Product roadmaps, features, strategy |
 | **Don Norman** | UX/Design | "Design of Everyday Things", father of UX | UX, usability, human-centered design |
+| **Elena Verna** | PLG/Growth | Miro, Amplitude, Dropbox advisor | PLG strategy, growth loops, activation |
 | **Eliyahu Goldratt** | Operations | "The Goal", Theory of Constraints | Process optimization, bottlenecks |
 | **Elon Musk** | Innovation | First principles, Tesla/SpaceX | Moonshots, paradigm shifts, first principles |
+| **Emily Kramer** | B2B Marketing | MKT1, Asana/Carta marketing leader | B2B marketing, demand gen, content strategy |
 | **Esther Perel** | Relationships | "Where Should We Begin?", couples therapy | Difficult conversations, team dynamics |
 | **Ethan Mollick** | AI/Education | Wharton AI research, thought leadership | AI content, academic credibility |
 | **Frank Slootman** | Execution | "Amp It Up", Snowflake CEO | Turnarounds, intensity, raising standards |
@@ -27,17 +31,19 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **John Carmack** | Technical | Doom, Quake, Meta CTO | Performance, deep technical work |
 | **Julie Zhuo** | Design/Mgmt | "The Making of a Manager", FB Design | Product design, new managers, UX |
 | **Justin Welsh** | Content | LinkedIn virality, solo business | LinkedIn posts, personal brand |
-| **Nancy Duarte** | Presentations | "Resonate", "Slide:ology", visual storytelling | Pitch decks, keynotes, presentations |
 | **Keith Rabois** | Operations | "How to Operate", barrels vs ammunition | Ops, execution, scaling, simplification |
 | **Kent Beck** | Engineering | XP, TDD, JUnit creator | Testing, refactoring, engineering practices |
 | **Kim Scott** | Feedback | "Radical Candor", care + challenge | Feedback, management, difficult conversations |
 | **Lenny Rachitsky** | Product | Lenny's Newsletter, Airbnb | Product growth, metrics, frameworks |
+| **Lincoln Murphy** | Customer Success | Sixteen Ventures, CS evangelist | Customer success, churn, NRR, expansion |
 | **Marc Andreessen** | Tech/Venture | a16z, "Software is eating the world" | Tech trends, platform shifts, disruption |
 | **Marty Cagan** | Product | "Inspired", "Empowered", SVPG | Empowered teams, product discovery |
+| **Nancy Duarte** | Presentations | "Resonate", "Slide:ology", visual storytelling | Pitch decks, keynotes, presentations |
 | **Nikita Bier** | Growth | TBH, Gas app, viral consumer | Virality, B2C growth, retention |
 | **Patrick Campbell** | Pricing | ProfitWell, SaaS pricing | Pricing, packaging, unit economics |
 | **Paul Graham** | Startups | Y Combinator, essays | Startup advice, writing, clarity |
 | **Ray Dalio** | Principles | "Principles", Bridgewater | Culture, decision-making, systems |
+| **Sahil Bloom** | Frameworks/Content | 1M+ followers, "The Curiosity Chronicle" | Frameworks, content, personal brand |
 | **Sequoia Perspective** | Venture | Legendary VC, Arc of company building | Fundraising, market sizing, pitch |
 | **Seth Godin** | Marketing | "Purple Cow", permission marketing | Differentiation, tribes, being remarkable |
 | **Shreyas Doshi** | Product | LNO Framework, Stripe/Twitter PM | Prioritization, PM craft, pre-mortems |
@@ -70,6 +76,7 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 - Annie Duke (probabilistic thinking, pre-mortem)
 - Ray Dalio (principles, systematic)
 - Warren Buffett (long-term, moats)
+- Cassie Kozyrkov (AI/data decisions)
 
 ### Simplification & Focus
 - Steve Jobs (radical simplification, saying no)
@@ -85,14 +92,17 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 ### Sales & Revenue
 - Aaron Ross (sales process, outbound)
 - Patrick Campbell (pricing, packaging)
+- Chris Voss (negotiation)
 
 ### Marketing & Differentiation
 - Seth Godin (remarkable, tribes)
 - April Dunford (positioning)
+- Emily Kramer (B2B marketing)
 - Justin Welsh (personal brand)
 
 ### Content & Writing
 - Justin Welsh (LinkedIn, personal brand)
+- Sahil Bloom (frameworks, content)
 - Ethan Mollick (AI content, research)
 - Steven Pinker (clear prose, editing)
 - Paul Graham (essays, clarity)
@@ -109,8 +119,24 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 - Steve Jobs (product design)
 - Nikita Bier (B2C virality)
 
+### PLG & Growth
+- Elena Verna (PLG strategy, growth loops)
+- Lenny Rachitsky (product growth)
+- Nikita Bier (virality, B2C)
+
+### Onboarding & Activation
+- BJ Fogg (behavior design, habits)
+- Elena Verna (activation, time-to-value)
+- Lincoln Murphy (customer success)
+
+### Customer Success & Retention
+- Lincoln Murphy (CS, churn, NRR)
+- Patrick Campbell (pricing, retention)
+- Elena Verna (expansion revenue)
+
 ### Presentations & Visual Storytelling
 - Nancy Duarte (pitch decks, keynotes)
+- Sahil Bloom (frameworks, content)
 - Justin Welsh (content, personal brand)
 
 ### Negotiation & Difficult Conversations
@@ -121,6 +147,10 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 ### Hard Decisions & Crisis
 - Ben Horowitz (layoffs, pivots, wartime)
 - Frank Slootman (turnarounds, intensity)
+
+### AI & Data Strategy
+- Cassie Kozyrkov (decision intelligence)
+- Ethan Mollick (AI applications)
 
 ### Engineering & Technical
 - John Carmack (performance, deep tech)
@@ -142,4 +172,4 @@ See `BACKLOG.md` for personas ready to be created on-demand.
 
 ---
 
-*Updated: 2026-01-12 | Total: 40 personas*
+*Updated: 2026-01-12 | Total: 46 personas*

@@ -1,12 +1,12 @@
 # Work Type → Persona Mappings
 # Used by suggest_personas.py to recommend experts for different work types
-# Updated: 2026-01-12 - Added Don Norman, Chris Voss, Nancy Duarte, Ben Horowitz
+# Updated: 2026-01-12 - Added Elena Verna, Emily Kramer, BJ Fogg, Cassie Kozyrkov, Lincoln Murphy, Sahil Bloom
 
 content:
   description: "LinkedIn posts, articles, thought leadership"
   primary:
     - Justin Welsh
-    - Ethan Mollick
+    - Sahil Bloom
   supporting:
     - Geoffrey Moore
     - Steven Pinker
@@ -64,16 +64,25 @@ product-discovery:
     - Julie Zhuo
   supporting:
     - Lenny Rachitsky
-    - Shreyas Doshi
+    - BJ Fogg
 
 product-growth:
   description: "Metrics, loops, activation, retention"
   primary:
     - Lenny Rachitsky
-    - Nikita Bier
+    - Elena Verna
   supporting:
     - Patrick Campbell
-    - Dan Horowitz
+    - Nikita Bier
+
+plg:
+  description: "Product-led growth, freemium, self-serve"
+  primary:
+    - Elena Verna
+    - Lenny Rachitsky
+  supporting:
+    - Nikita Bier
+    - Patrick Campbell
 
 pm-craft:
   description: "PM skills, prioritization, frameworks"
@@ -105,7 +114,7 @@ presentations:
   description: "Keynotes, pitch decks, all-hands, visual storytelling"
   primary:
     - Nancy Duarte
-    - Justin Welsh
+    - Sahil Bloom
   supporting:
     - Geoffrey Moore
     - April Dunford
@@ -141,10 +150,10 @@ growth:
   description: "User acquisition, virality, retention"
   primary:
     - Nikita Bier
-    - Justin Welsh
+    - Elena Verna
   supporting:
     - Dan Horowitz
-    - Aaron Ross
+    - Justin Welsh
 
 hiring:
   description: "Job descriptions, org design, team structure"
@@ -203,6 +212,7 @@ decision-making:
   primary:
     - Charlie Munger
     - Annie Duke
+    - Cassie Kozyrkov
   supporting:
     - Ray Dalio
     - Warren Buffett
@@ -229,10 +239,19 @@ marketing:
   description: "Brand, differentiation, audience building"
   primary:
     - Seth Godin
-    - April Dunford
+    - Emily Kramer
   supporting:
+    - April Dunford
     - Justin Welsh
-    - Geoffrey Moore
+
+b2b-marketing:
+  description: "B2B demand gen, content marketing, marketing strategy"
+  primary:
+    - Emily Kramer
+    - Seth Godin
+  supporting:
+    - April Dunford
+    - Justin Welsh
 
 feedback:
   description: "Performance feedback, difficult conversations"
@@ -312,3 +331,84 @@ crisis:
   supporting:
     - Andy Grove
     - Keith Rabois
+
+onboarding:
+  description: "User onboarding, activation, time-to-value"
+  primary:
+    - BJ Fogg
+    - Elena Verna
+  supporting:
+    - Lincoln Murphy
+    - Lenny Rachitsky
+
+activation:
+  description: "User activation, habit formation, engagement"
+  primary:
+    - BJ Fogg
+    - Elena Verna
+  supporting:
+    - Nikita Bier
+    - Lincoln Murphy
+
+behavior-design:
+  description: "Behavior change, habits, persuasive design"
+  primary:
+    - BJ Fogg
+    - Don Norman
+  supporting:
+    - Nikita Bier
+    - Lenny Rachitsky
+
+ai-strategy:
+  description: "AI/ML decisions, data strategy, when to use AI"
+  primary:
+    - Cassie Kozyrkov
+    - Ethan Mollick
+  supporting:
+    - Marc Andreessen
+    - Keith Rabois
+
+customer-success:
+  description: "Customer success, churn, retention, NRR"
+  primary:
+    - Lincoln Murphy
+    - Patrick Campbell
+  supporting:
+    - Elena Verna
+    - Aaron Ross
+
+retention:
+  description: "Customer retention, reducing churn, expansion"
+  primary:
+    - Lincoln Murphy
+    - Elena Verna
+  supporting:
+    - Patrick Campbell
+    - Lenny Rachitsky
+
+frameworks:
+  description: "Mental models, frameworks, simplifying complexity"
+  primary:
+    - Sahil Bloom
+    - Charlie Munger
+  supporting:
+    - Annie Duke
+    - Ray Dalio
+
+personal-brand:
+  description: "Personal branding, audience building, creator economy"
+  primary:
+    - Sahil Bloom
+    - Justin Welsh
+  supporting:
+    - Seth Godin
+    - Emily Kramer
+
+newsletter:
+  description: "Newsletter strategy, content systems, subscriber growth"
+  primary:
+    - Sahil Bloom
+    - Justin Welsh
+  supporting:
+    - Emily Kramer
+    - Seth Godin

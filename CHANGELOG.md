@@ -1,14 +1,49 @@
 # Changelog
 
-All notable changes to the Expert Personas system.
+All notable changes to the Expert Personas Framework.
+
+## [1.2.0] - 2026-01-12
+
+### Added
+- **Elena Verna** - PLG advisor (Miro, Amplitude, Dropbox), growth loops, activation
+- **Emily Kramer** - B2B marketing (MKT1, Asana/Carta), demand gen, content strategy
+- **BJ Fogg** - Behavior design (Stanford, "Tiny Habits"), onboarding, activation
+- **Cassie Kozyrkov** - Decision Intelligence (Google Chief Decision Scientist), AI strategy
+- **Lincoln Murphy** - Customer Success evangelist (Sixteen Ventures), churn, NRR
+- **Sahil Bloom** - Frameworks & content (1M+ followers), mental models, personal brand
+
+### New Work Types
+- `plg` - Product-led growth strategy
+- `b2b-marketing` - B2B demand gen and marketing
+- `onboarding` - User onboarding and time-to-value
+- `activation` - User activation and habit formation
+- `behavior-design` - Behavior change and persuasive design
+- `ai-strategy` - AI/ML decisions and data strategy
+- `customer-success` - CS strategy, churn, NRR
+- `retention` - Customer retention and expansion
+- `frameworks` - Mental models and simplifying complexity
+- `personal-brand` - Personal branding and audience building
+- `newsletter` - Newsletter strategy and subscriber growth
+
+### Updated Mappings
+- `content` → Added Sahil Bloom as primary
+- `product-discovery` → Added BJ Fogg as supporting
+- `product-growth` → Added Elena Verna as primary
+- `growth` → Added Elena Verna as primary
+- `decision-making` → Added Cassie Kozyrkov as primary
+- `marketing` → Added Emily Kramer as primary
+- `presentations` → Added Sahil Bloom as primary
+
+### Stats
+- Total personas: 46 (up from 40)
 
 ## [1.1.0] - 2026-01-12
 
 ### Added
-- **Don Norman** - Father of UX, "The Design of Everyday Things", human-centered design
-- **Chris Voss** - FBI hostage negotiator, "Never Split the Difference", tactical empathy
-- **Nancy Duarte** - Presentation expert, "Resonate", "Slide:ology", visual storytelling
-- **Ben Horowitz** - "The Hard Thing About Hard Things", wartime leadership, hard decisions
+- **Don Norman** - UX/design expert, "Design of Everyday Things", human-centered design
+- **Chris Voss** - FBI negotiator, "Never Split the Difference", tactical empathy
+- **Nancy Duarte** - Presentations expert, "Resonate", visual storytelling
+- **Ben Horowitz** - Hard decisions, "The Hard Thing About Hard Things", wartime leadership
 
 ### New Work Types
 - `presentations` - Keynotes, pitch decks, visual storytelling
@@ -18,24 +53,20 @@ All notable changes to the Expert Personas system.
 - `crisis` - Company turnaround, survival mode
 
 ### Updated Mappings
-- `design` - Added Don Norman as primary
-- `sales` - Added Chris Voss
-- `communication` - Added Chris Voss
-- `fundraising` - Added Nancy Duarte
-- `turnaround` - Added Ben Horowitz
+- `design` → Don Norman as primary
+- `sales` → Added Chris Voss
+- `communication` → Added Chris Voss
+- `fundraising` → Added Nancy Duarte
+- `turnaround` → Added Ben Horowitz
 
----
+### Stats
+- Total personas: 40 (up from 36)
 
 ## [1.0.0] - 2026-01-12
 
-### Added
-- Initial standalone release
-- 38 expert personas across 10 categories
-- Persona selection script (`select_personas.py`)
-- Persona suggestion script (`suggest_personas.py`)
-- Persona generation script (`generate_persona.py`)
-- Version checking script (`check_version.py`)
-- Work-type mappings (25+ work types)
-- Feedback loop workflow
-- Standalone installer
-- Related skills: `expert-review` and `expert-improve`
+### Initial Release
+- 36 expert personas from Nexus system
+- Work-type mappings for automatic persona suggestion
+- Scripts: `select_personas.py`, `suggest_personas.py`
+- Templates and workflows
+- Installation script for Nexus integration
