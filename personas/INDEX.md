@@ -2,7 +2,7 @@
 
 Quick reference for all available expert personas. See `config/work-type-mappings.yaml` for which personas to use for each work type.
 
-## All Personas (47)
+## All Personas (51)
 
 | Persona | Domain | Famous For | Best For |
 |---------|--------|------------|----------|
@@ -30,7 +30,9 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Geoffrey Moore** | Strategy | "Crossing the Chasm", beachhead | GTM strategy, enterprise adoption |
 | **Hamilton Helmer** | Strategy | "7 Powers", competitive advantage | Moats, long-term advantage, power |
 | **John Carmack** | Technical | Doom, Quake, Meta CTO | Performance, deep technical work |
+| **John McMahon** | Enterprise Sales | PTC/BMC/BladeLogic, Snowflake/MongoDB board | Enterprise deals, MEDDICC, complex sales |
 | **Julie Zhuo** | Design/Mgmt | "The Making of a Manager", FB Design | Product design, new managers, UX |
+| **Jacco van der Kooij** | Sales Methodology | Winning by Design, SPICED, revenue architecture | Sales methodology, deal execution, discovery |
 | **Justin Welsh** | Content | LinkedIn virality, solo business | LinkedIn posts, personal brand |
 | **Keith Rabois** | Operations | "How to Operate", barrels vs ammunition | Ops, execution, scaling, simplification |
 | **Kent Beck** | Engineering | XP, TDD, JUnit creator | Testing, refactoring, engineering practices |
@@ -38,6 +40,8 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Lenny Rachitsky** | Product | Lenny's Newsletter, Airbnb | Product growth, metrics, frameworks |
 | **Lincoln Murphy** | Customer Success | Sixteen Ventures, CS evangelist | Customer success, churn, NRR, expansion |
 | **Marc Andreessen** | Tech/Venture | a16z, "Software is eating the world" | Tech trends, platform shifts, disruption |
+| **Meka Asonye** | Founder Sales | First Round, Mixpanel VP Sales | Founder-to-team transition, first sales hires |
+| **Mark Roberge** | Sales Scaling | HubSpot 0→$100M, Sales Acceleration Formula | Sales org building, hiring, scaling |
 | **Marty Cagan** | Product | "Inspired", "Empowered", SVPG | Empowered teams, product discovery |
 | **Nancy Duarte** | Presentations | "Resonate", "Slide:ology", visual storytelling | Pitch decks, keynotes, presentations |
 | **Nikita Bier** | Growth | TBH, Gas app, viral consumer | Virality, B2C growth, retention |
@@ -173,4 +177,4 @@ See `BACKLOG.md` for personas ready to be created on-demand.
 
 ---
 
-*Updated: 2026-01-12 | Total: 47 personas*
+*Updated: 2026-01-12 | Total: 51 personas*

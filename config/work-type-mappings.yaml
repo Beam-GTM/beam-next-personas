@@ -430,3 +430,39 @@ gtm-operations:
   supporting:
     - Geoffrey Moore
     - Emily Kramer
+
+sales-methodology:
+  description: "Sales process, deal execution, SPICED/MEDDICC"
+  primary:
+    - Jacco van der Kooij
+    - John McMahon
+  supporting:
+    - Aaron Ross
+    - Mark Roberge
+
+enterprise-sales:
+  description: "Complex deals, high-ACV, multi-stakeholder"
+  primary:
+    - John McMahon
+    - David Sacks
+  supporting:
+    - Jacco van der Kooij
+    - Aaron Ross
+
+sales-hiring:
+  description: "Sales team building, hiring, compensation"
+  primary:
+    - Mark Roberge
+    - Meka Asonye
+  supporting:
+    - Keith Rabois
+    - Claire Hughes Johnson
+
+founder-sales:
+  description: "Founder-led sales, first sales hires"
+  primary:
+    - Meka Asonye
+    - Mark Roberge
+  supporting:
+    - David Sacks
+    - Aaron Ross

@@ -2,6 +2,23 @@
 
 All notable changes to the Expert Personas Framework.
 
+## [1.4.0] - 2026-01-12
+
+### Added - Sales Expertise Expansion
+- **Mark Roberge** - Built HubSpot sales 0→$100M+, Harvard, "Sales Acceleration Formula", data-driven sales hiring
+- **Jacco van der Kooij** - Winning by Design founder, SPICED methodology, revenue architecture
+- **John McMahon** - Enterprise sales godfather, PTC/BMC/BladeLogic, Snowflake/MongoDB board, MEDDICC
+- **Meka Asonye** - First Round partner, Mixpanel VP Sales, founder-to-sales-team transitions
+
+### New Work Types
+- `sales-methodology` - Sales process, deal execution, SPICED/MEDDICC
+- `enterprise-sales` - Complex deals, high-ACV, multi-stakeholder
+- `sales-hiring` - Sales team building, hiring, compensation
+- `founder-sales` - Founder-led sales, first sales hires
+
+### Stats
+- Total personas: 51 (up from 47)
+
 ## [1.3.0] - 2026-01-12
 
 ### Added
@@ -10,10 +27,6 @@ All notable changes to the Expert Personas Framework.
 ### New Work Types
 - `saas-metrics` - SaaS metrics, unit economics, burn multiple, magic number
 - `gtm-operations` - Go-to-market operations, sales/marketing alignment
-
-### Updated Mappings
-- `sales` → Added David Sacks as supporting
-- `strategy` → Added David Sacks as supporting
 
 ### Stats
 - Total personas: 47 (up from 46)
@@ -29,17 +42,7 @@ All notable changes to the Expert Personas Framework.
 - **Sahil Bloom** - Frameworks & content (1M+ followers), mental models, personal brand
 
 ### New Work Types
-- `plg` - Product-led growth strategy
-- `b2b-marketing` - B2B demand gen and marketing
-- `onboarding` - User onboarding and time-to-value
-- `activation` - User activation and habit formation
-- `behavior-design` - Behavior change and persuasive design
-- `ai-strategy` - AI/ML decisions and data strategy
-- `customer-success` - CS strategy, churn, NRR
-- `retention` - Customer retention and expansion
-- `frameworks` - Mental models and simplifying complexity
-- `personal-brand` - Personal branding and audience building
-- `newsletter` - Newsletter strategy and subscriber growth
+- `plg`, `b2b-marketing`, `onboarding`, `activation`, `behavior-design`, `ai-strategy`, `customer-success`, `retention`, `frameworks`, `personal-brand`, `newsletter`
 
 ### Stats
 - Total personas: 46 (up from 40)
@@ -53,11 +56,7 @@ All notable changes to the Expert Personas Framework.
 - **Ben Horowitz** - Hard decisions, "The Hard Thing About Hard Things", wartime leadership
 
 ### New Work Types
-- `presentations` - Keynotes, pitch decks, visual storytelling
-- `negotiation` - Sales negotiations, contracts, difficult discussions
-- `ux` - User experience, usability, human-centered design
-- `hard-decisions` - Layoffs, pivots, crisis leadership
-- `crisis` - Company turnaround, survival mode
+- `presentations`, `negotiation`, `ux`, `hard-decisions`, `crisis`
 
 ### Stats
 - Total personas: 40 (up from 36)
