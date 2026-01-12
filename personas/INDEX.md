@@ -2,7 +2,7 @@
 
 Quick reference for all available expert personas. See `config/work-type-mappings.yaml` for which personas to use for each work type.
 
-## All Personas (36)
+## All Personas (40)
 
 | Persona | Domain | Famous For | Best For |
 |---------|--------|------------|----------|
@@ -10,10 +10,13 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Andy Grove** | Management | "High Output Management", OKRs | Execution plans, management, metrics |
 | **Annie Duke** | Decisions | "Thinking in Bets", poker champion | Uncertain decisions, probabilistic thinking |
 | **April Dunford** | Positioning | "Obviously Awesome", B2B positioning | Messaging, positioning, value props |
+| **Ben Horowitz** | Hard Decisions | "The Hard Thing About Hard Things", a16z | Layoffs, pivots, crisis, wartime leadership |
 | **Camille Fournier** | Eng Mgmt | "The Manager's Path", CTO | Eng management, tech lead transition |
 | **Charlie Munger** | Decisions | Mental models, Berkshire Hathaway | Avoiding mistakes, multi-disciplinary thinking |
+| **Chris Voss** | Negotiation | "Never Split the Difference", FBI negotiator | Negotiations, difficult conversations, sales |
 | **Claire Hughes Johnson** | Leadership | "Scaling People", Stripe COO | Hiring, org design, culture, scaling |
 | **Dan Horowitz** | Product | Product strategy, scaling | Product roadmaps, features, strategy |
+| **Don Norman** | UX/Design | "Design of Everyday Things", father of UX | UX, usability, human-centered design |
 | **Eliyahu Goldratt** | Operations | "The Goal", Theory of Constraints | Process optimization, bottlenecks |
 | **Elon Musk** | Innovation | First principles, Tesla/SpaceX | Moonshots, paradigm shifts, first principles |
 | **Esther Perel** | Relationships | "Where Should We Begin?", couples therapy | Difficult conversations, team dynamics |
@@ -24,6 +27,7 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **John Carmack** | Technical | Doom, Quake, Meta CTO | Performance, deep technical work |
 | **Julie Zhuo** | Design/Mgmt | "The Making of a Manager", FB Design | Product design, new managers, UX |
 | **Justin Welsh** | Content | LinkedIn virality, solo business | LinkedIn posts, personal brand |
+| **Nancy Duarte** | Presentations | "Resonate", "Slide:ology", visual storytelling | Pitch decks, keynotes, presentations |
 | **Keith Rabois** | Operations | "How to Operate", barrels vs ammunition | Ops, execution, scaling, simplification |
 | **Kent Beck** | Engineering | XP, TDD, JUnit creator | Testing, refactoring, engineering practices |
 | **Kim Scott** | Feedback | "Radical Candor", care + challenge | Feedback, management, difficult conversations |
@@ -100,9 +104,23 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 - Dan Horowitz (product strategy)
 
 ### Product & Design
+- Don Norman (UX, human-centered design)
 - Julie Zhuo (product design, UX)
 - Steve Jobs (product design)
 - Nikita Bier (B2C virality)
+
+### Presentations & Visual Storytelling
+- Nancy Duarte (pitch decks, keynotes)
+- Justin Welsh (content, personal brand)
+
+### Negotiation & Difficult Conversations
+- Chris Voss (negotiation, tactical empathy)
+- Esther Perel (relationships, dynamics)
+- Kim Scott (feedback, Radical Candor)
+
+### Hard Decisions & Crisis
+- Ben Horowitz (layoffs, pivots, wartime)
+- Frank Slootman (turnarounds, intensity)
 
 ### Engineering & Technical
 - John Carmack (performance, deep tech)
@@ -124,4 +142,4 @@ See `BACKLOG.md` for personas ready to be created on-demand.
 
 ---
 
-*Updated: 2026-01-08 | Total: 36 personas*
+*Updated: 2026-01-12 | Total: 40 personas*

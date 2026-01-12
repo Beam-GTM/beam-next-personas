@@ -1,6 +1,6 @@
 # Work Type → Persona Mappings
 # Used by suggest_personas.py to recommend experts for different work types
-# Updated: 2026-01-08 - Added execution-plan, hiring, messaging, simplification, writing types
+# Updated: 2026-01-12 - Added Don Norman, Chris Voss, Nancy Duarte, Ben Horowitz
 
 content:
   description: "LinkedIn posts, articles, thought leadership"
@@ -34,8 +34,9 @@ sales:
   description: "Sales process, outreach, revenue"
   primary:
     - Aaron Ross
-    - Geoffrey Moore
+    - Chris Voss
   supporting:
+    - Geoffrey Moore
     - Patrick Campbell
 
 operations:
@@ -95,9 +96,19 @@ fundraising:
   description: "Pitch decks, investor materials"
   primary:
     - Sequoia Perspective
-    - Geoffrey Moore
+    - Nancy Duarte
   supporting:
+    - Geoffrey Moore
     - Patrick Campbell
+
+presentations:
+  description: "Keynotes, pitch decks, all-hands, visual storytelling"
+  primary:
+    - Nancy Duarte
+    - Justin Welsh
+  supporting:
+    - Geoffrey Moore
+    - April Dunford
 
 innovation:
   description: "New ideas, moonshots, first principles"
@@ -112,9 +123,19 @@ communication:
   description: "Difficult conversations, team dynamics"
   primary:
     - Esther Perel
-    - Justin Welsh
+    - Chris Voss
   supporting:
-    - W. Edwards Deming
+    - Kim Scott
+    - Ben Horowitz
+
+negotiation:
+  description: "Sales negotiations, contracts, difficult discussions"
+  primary:
+    - Chris Voss
+    - Patrick Campbell
+  supporting:
+    - Aaron Ross
+    - Esther Perel
 
 growth:
   description: "User acquisition, virality, retention"
@@ -163,8 +184,9 @@ turnaround:
   description: "Urgent execution, raising standards, intensity"
   primary:
     - Frank Slootman
-    - Keith Rabois
+    - Ben Horowitz
   supporting:
+    - Keith Rabois
     - Andy Grove
 
 writing:
@@ -258,7 +280,35 @@ tech-leadership:
 design:
   description: "Product design, UX, interface"
   primary:
+    - Don Norman
     - Julie Zhuo
-    - Steve Jobs
   supporting:
+    - Steve Jobs
     - Nikita Bier
+
+ux:
+  description: "User experience, usability, human-centered design"
+  primary:
+    - Don Norman
+    - Julie Zhuo
+  supporting:
+    - Steve Jobs
+    - Marty Cagan
+
+hard-decisions:
+  description: "Layoffs, pivots, crisis leadership, no good options"
+  primary:
+    - Ben Horowitz
+    - Frank Slootman
+  supporting:
+    - Keith Rabois
+    - Andy Grove
+
+crisis:
+  description: "Company crisis, turnaround, survival mode"
+  primary:
+    - Ben Horowitz
+    - Frank Slootman
+  supporting:
+    - Andy Grove
+    - Keith Rabois
