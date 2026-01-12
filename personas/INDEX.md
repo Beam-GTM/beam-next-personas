@@ -2,7 +2,7 @@
 
 Quick reference for all available expert personas. See `config/work-type-mappings.yaml` for which personas to use for each work type.
 
-## All Personas (46)
+## All Personas (47)
 
 | Persona | Domain | Famous For | Best For |
 |---------|--------|------------|----------|
@@ -17,6 +17,7 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Charlie Munger** | Decisions | Mental models, Berkshire Hathaway | Avoiding mistakes, multi-disciplinary thinking |
 | **Chris Voss** | Negotiation | "Never Split the Difference", FBI negotiator | Negotiations, difficult conversations, sales |
 | **Claire Hughes Johnson** | Leadership | "Scaling People", Stripe COO | Hiring, org design, culture, scaling |
+| **David Sacks** | SaaS/GTM | PayPal Mafia, Yammer, Craft Ventures, All-In | SaaS metrics, GTM operations, efficiency |
 | **Dan Horowitz** | Product | Product strategy, scaling | Product roadmaps, features, strategy |
 | **Don Norman** | UX/Design | "Design of Everyday Things", father of UX | UX, usability, human-centered design |
 | **Elena Verna** | PLG/Growth | Miro, Amplitude, Dropbox advisor | PLG strategy, growth loops, activation |
@@ -172,4 +173,4 @@ See `BACKLOG.md` for personas ready to be created on-demand.
 
 ---
 
-*Updated: 2026-01-12 | Total: 46 personas*
+*Updated: 2026-01-12 | Total: 47 personas*

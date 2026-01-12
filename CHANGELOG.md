@@ -2,6 +2,22 @@
 
 All notable changes to the Expert Personas Framework.
 
+## [1.3.0] - 2026-01-12
+
+### Added
+- **David Sacks** - PayPal Mafia, Yammer founder, Craft Ventures GP, All-In Podcast host
+
+### New Work Types
+- `saas-metrics` - SaaS metrics, unit economics, burn multiple, magic number
+- `gtm-operations` - Go-to-market operations, sales/marketing alignment
+
+### Updated Mappings
+- `sales` → Added David Sacks as supporting
+- `strategy` → Added David Sacks as supporting
+
+### Stats
+- Total personas: 47 (up from 46)
+
 ## [1.2.0] - 2026-01-12
 
 ### Added
@@ -25,15 +41,6 @@ All notable changes to the Expert Personas Framework.
 - `personal-brand` - Personal branding and audience building
 - `newsletter` - Newsletter strategy and subscriber growth
 
-### Updated Mappings
-- `content` → Added Sahil Bloom as primary
-- `product-discovery` → Added BJ Fogg as supporting
-- `product-growth` → Added Elena Verna as primary
-- `growth` → Added Elena Verna as primary
-- `decision-making` → Added Cassie Kozyrkov as primary
-- `marketing` → Added Emily Kramer as primary
-- `presentations` → Added Sahil Bloom as primary
-
 ### Stats
 - Total personas: 46 (up from 40)
 
@@ -51,13 +58,6 @@ All notable changes to the Expert Personas Framework.
 - `ux` - User experience, usability, human-centered design
 - `hard-decisions` - Layoffs, pivots, crisis leadership
 - `crisis` - Company turnaround, survival mode
-
-### Updated Mappings
-- `design` → Don Norman as primary
-- `sales` → Added Chris Voss
-- `communication` → Added Chris Voss
-- `fundraising` → Added Nancy Duarte
-- `turnaround` → Added Ben Horowitz
 
 ### Stats
 - Total personas: 40 (up from 36)

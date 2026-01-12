@@ -412,3 +412,21 @@ newsletter:
   supporting:
     - Emily Kramer
     - Seth Godin
+
+saas-metrics:
+  description: "SaaS metrics, unit economics, efficiency"
+  primary:
+    - David Sacks
+    - Patrick Campbell
+  supporting:
+    - Elena Verna
+    - Aaron Ross
+
+gtm-operations:
+  description: "Go-to-market operations, sales/marketing alignment"
+  primary:
+    - David Sacks
+    - Aaron Ross
+  supporting:
+    - Geoffrey Moore
+    - Emily Kramer
