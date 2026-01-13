@@ -2,11 +2,14 @@
 
 Quick reference for all available expert personas. See `config/work-type-mappings.yaml` for which personas to use for each work type.
 
-## All Personas (51)
+## All Personas (55)
 
 | Persona | Domain | Famous For | Best For |
 |---------|--------|------------|----------|
 | **Aaron Ross** | Sales | "Predictable Revenue", Cold Calling 2.0 | Sales process, outbound, SDR teams |
+| **Alexandr Wang** | AI Infrastructure | Scale AI founder, serves OpenAI/Meta/Government | AI infrastructure, enterprise AI, data, B2B AI |
+| **Andrej Karpathy** | AI Technical | Tesla AI Director, OpenAI, YouTube educator | AI products, making AI understandable, neural nets |
+| **Andrew Ng** | AI Strategy | DeepLearning.AI, Coursera, Google Brain, Baidu | AI transformation, enterprise AI, data-centric AI |
 | **Andy Grove** | Management | "High Output Management", OKRs | Execution plans, management, metrics |
 | **Annie Duke** | Decisions | "Thinking in Bets", poker champion | Uncertain decisions, probabilistic thinking |
 | **April Dunford** | Positioning | "Obviously Awesome", B2B positioning | Messaging, positioning, value props |
@@ -17,6 +20,7 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Charlie Munger** | Decisions | Mental models, Berkshire Hathaway | Avoiding mistakes, multi-disciplinary thinking |
 | **Chris Voss** | Negotiation | "Never Split the Difference", FBI negotiator | Negotiations, difficult conversations, sales |
 | **Claire Hughes Johnson** | Leadership | "Scaling People", Stripe COO | Hiring, org design, culture, scaling |
+| **Dario Amodei** | AI Safety | Anthropic CEO, former OpenAI VP Research | AI safety, responsible AI, Constitutional AI |
 | **David Sacks** | SaaS/GTM | PayPal Mafia, Yammer, Craft Ventures, All-In | SaaS metrics, GTM operations, efficiency |
 | **Dan Horowitz** | Product | Product strategy, scaling | Product roadmaps, features, strategy |
 | **Don Norman** | UX/Design | "Design of Everyday Things", father of UX | UX, usability, human-centered design |
@@ -177,4 +181,4 @@ See `BACKLOG.md` for personas ready to be created on-demand.
 
 ---
 
-*Updated: 2026-01-12 | Total: 51 personas*
+*Updated: 2026-01-12 | Total: 55 personas*

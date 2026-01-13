@@ -466,3 +466,48 @@ founder-sales:
   supporting:
     - David Sacks
     - Aaron Ross
+
+ai-product:
+  description: "AI product development, implementation, technical decisions"
+  primary:
+    - Andrej Karpathy
+    - Cassie Kozyrkov
+  supporting:
+    - Andrew Ng
+    - Ethan Mollick
+
+ai-transformation:
+  description: "Enterprise AI adoption, transformation, strategy"
+  primary:
+    - Andrew Ng
+    - Cassie Kozyrkov
+  supporting:
+    - Dario Amodei
+    - Alexandr Wang
+
+ai-infrastructure:
+  description: "AI infrastructure, data, enterprise AI services"
+  primary:
+    - Alexandr Wang
+    - Andrej Karpathy
+  supporting:
+    - Andrew Ng
+    - David Sacks
+
+ai-safety:
+  description: "AI safety, responsible AI, alignment, governance"
+  primary:
+    - Dario Amodei
+    - Cassie Kozyrkov
+  supporting:
+    - Andrew Ng
+    - Ethan Mollick
+
+ai-technical:
+  description: "AI implementation, neural networks, ML engineering"
+  primary:
+    - Andrej Karpathy
+    - Andrew Ng
+  supporting:
+    - Cassie Kozyrkov
+    - John Carmack

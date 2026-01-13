@@ -2,19 +2,34 @@
 
 All notable changes to the Expert Personas Framework.
 
+## [1.5.0] - 2026-01-13
+
+### Added - AI Expertise Expansion
+- **Andrej Karpathy** - Tesla AI Director, OpenAI founding member, AI educator, "Software 2.0"
+- **Andrew Ng** - DeepLearning.AI, Coursera, AI Transformation Playbook, data-centric AI
+- **Alexandr Wang** - Scale AI founder, AI infrastructure, "picks and shovels" of AI
+- **Dario Amodei** - Anthropic CEO, Constitutional AI, responsible AI development
+
+### New Work Types
+- `ai-product` - AI product development, implementation
+- `ai-transformation` - Enterprise AI adoption and strategy
+- `ai-infrastructure` - AI data, infrastructure, services
+- `ai-safety` - Responsible AI, alignment, governance
+- `ai-technical` - Neural networks, ML engineering
+
+### Stats
+- Total personas: 55 (up from 51)
+
 ## [1.4.0] - 2026-01-12
 
 ### Added - Sales Expertise Expansion
-- **Mark Roberge** - Built HubSpot sales 0→$100M+, Harvard, "Sales Acceleration Formula", data-driven sales hiring
-- **Jacco van der Kooij** - Winning by Design founder, SPICED methodology, revenue architecture
-- **John McMahon** - Enterprise sales godfather, PTC/BMC/BladeLogic, Snowflake/MongoDB board, MEDDICC
-- **Meka Asonye** - First Round partner, Mixpanel VP Sales, founder-to-sales-team transitions
+- **Mark Roberge** - Built HubSpot sales 0→$100M+, data-driven sales hiring
+- **Jacco van der Kooij** - Winning by Design, SPICED methodology
+- **John McMahon** - Enterprise sales godfather, MEDDICC
+- **Meka Asonye** - First Round, founder-to-sales-team transitions
 
 ### New Work Types
-- `sales-methodology` - Sales process, deal execution, SPICED/MEDDICC
-- `enterprise-sales` - Complex deals, high-ACV, multi-stakeholder
-- `sales-hiring` - Sales team building, hiring, compensation
-- `founder-sales` - Founder-led sales, first sales hires
+- `sales-methodology`, `enterprise-sales`, `sales-hiring`, `founder-sales`
 
 ### Stats
 - Total personas: 51 (up from 47)
@@ -22,11 +37,10 @@ All notable changes to the Expert Personas Framework.
 ## [1.3.0] - 2026-01-12
 
 ### Added
-- **David Sacks** - PayPal Mafia, Yammer founder, Craft Ventures GP, All-In Podcast host
+- **David Sacks** - PayPal Mafia, Yammer, Craft Ventures, SaaS metrics
 
 ### New Work Types
-- `saas-metrics` - SaaS metrics, unit economics, burn multiple, magic number
-- `gtm-operations` - Go-to-market operations, sales/marketing alignment
+- `saas-metrics`, `gtm-operations`
 
 ### Stats
 - Total personas: 47 (up from 46)
@@ -34,12 +48,7 @@ All notable changes to the Expert Personas Framework.
 ## [1.2.0] - 2026-01-12
 
 ### Added
-- **Elena Verna** - PLG advisor (Miro, Amplitude, Dropbox), growth loops, activation
-- **Emily Kramer** - B2B marketing (MKT1, Asana/Carta), demand gen, content strategy
-- **BJ Fogg** - Behavior design (Stanford, "Tiny Habits"), onboarding, activation
-- **Cassie Kozyrkov** - Decision Intelligence (Google Chief Decision Scientist), AI strategy
-- **Lincoln Murphy** - Customer Success evangelist (Sixteen Ventures), churn, NRR
-- **Sahil Bloom** - Frameworks & content (1M+ followers), mental models, personal brand
+- **Elena Verna**, **Emily Kramer**, **BJ Fogg**, **Cassie Kozyrkov**, **Lincoln Murphy**, **Sahil Bloom**
 
 ### New Work Types
 - `plg`, `b2b-marketing`, `onboarding`, `activation`, `behavior-design`, `ai-strategy`, `customer-success`, `retention`, `frameworks`, `personal-brand`, `newsletter`
@@ -50,10 +59,7 @@ All notable changes to the Expert Personas Framework.
 ## [1.1.0] - 2026-01-12
 
 ### Added
-- **Don Norman** - UX/design expert, "Design of Everyday Things", human-centered design
-- **Chris Voss** - FBI negotiator, "Never Split the Difference", tactical empathy
-- **Nancy Duarte** - Presentations expert, "Resonate", visual storytelling
-- **Ben Horowitz** - Hard decisions, "The Hard Thing About Hard Things", wartime leadership
+- **Don Norman**, **Chris Voss**, **Nancy Duarte**, **Ben Horowitz**
 
 ### New Work Types
 - `presentations`, `negotiation`, `ux`, `hard-decisions`, `crisis`
@@ -65,7 +71,5 @@ All notable changes to the Expert Personas Framework.
 
 ### Initial Release
 - 36 expert personas from Nexus system
-- Work-type mappings for automatic persona suggestion
-- Scripts: `select_personas.py`, `suggest_personas.py`
-- Templates and workflows
+- Work-type mappings, scripts, templates, workflows
 - Installation script for Nexus integration
