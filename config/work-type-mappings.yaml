@@ -15,7 +15,7 @@ strategy:
   description: "GTM strategy, market entry, positioning"
   primary:
     - Geoffrey Moore
-    - Sequoia Perspective
+    - Roelof Botha
   supporting:
     - Aaron Ross
     - Patrick Campbell
@@ -99,12 +99,12 @@ pricing:
     - Patrick Campbell
     - Geoffrey Moore
   supporting:
-    - Sequoia Perspective
+    - Roelof Botha
 
 fundraising:
   description: "Pitch decks, investor materials"
   primary:
-    - Sequoia Perspective
+    - Roelof Botha
     - Nancy Duarte
   supporting:
     - Geoffrey Moore
@@ -223,7 +223,7 @@ startup:
     - Paul Graham
     - Marc Andreessen
   supporting:
-    - Sequoia Perspective
+    - Roelof Botha
     - Geoffrey Moore
 
 competitive-strategy:
@@ -511,3 +511,39 @@ ai-technical:
   supporting:
     - Cassie Kozyrkov
     - John Carmack
+
+marketplace:
+  description: "Marketplace strategy, platform dynamics, network effects"
+  primary:
+    - Bill Gurley
+    - Lenny Rachitsky
+  supporting:
+    - Elena Verna
+    - Marc Andreessen
+
+unit-economics:
+  description: "Unit economics, CAC/LTV, revenue quality"
+  primary:
+    - Bill Gurley
+    - Patrick Campbell
+  supporting:
+    - David Sacks
+    - Roelof Botha
+
+business-model:
+  description: "Business model evaluation, revenue quality, defensibility"
+  primary:
+    - Bill Gurley
+    - Hamilton Helmer
+  supporting:
+    - Patrick Campbell
+    - Roelof Botha
+
+investor-pitch:
+  description: "Fundraising pitches, investor presentations"
+  primary:
+    - Roelof Botha
+    - Nancy Duarte
+  supporting:
+    - Bill Gurley
+    - Geoffrey Moore

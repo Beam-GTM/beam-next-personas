@@ -2,7 +2,7 @@
 
 Quick reference for all available expert personas. See `config/work-type-mappings.yaml` for which personas to use for each work type.
 
-## All Personas (55)
+## All Personas (56)
 
 | Persona | Domain | Famous For | Best For |
 |---------|--------|------------|----------|
@@ -14,6 +14,7 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Annie Duke** | Decisions | "Thinking in Bets", poker champion | Uncertain decisions, probabilistic thinking |
 | **April Dunford** | Positioning | "Obviously Awesome", B2B positioning | Messaging, positioning, value props |
 | **Ben Horowitz** | Hard Decisions | "The Hard Thing About Hard Things", a16z | Layoffs, pivots, crisis, wartime leadership |
+| **Bill Gurley** | Marketplaces | Benchmark, Uber board, unit economics | Marketplaces, business models, revenue quality |
 | **BJ Fogg** | Behavior Design | "Tiny Habits", Fogg Behavior Model, Stanford | Onboarding, activation, behavior change, habits |
 | **Camille Fournier** | Eng Mgmt | "The Manager's Path", CTO | Eng management, tech lead transition |
 | **Cassie Kozyrkov** | Decision Intelligence | Google's Chief Decision Scientist | AI strategy, data decisions, when to use AI |
@@ -52,8 +53,8 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 | **Patrick Campbell** | Pricing | ProfitWell, SaaS pricing | Pricing, packaging, unit economics |
 | **Paul Graham** | Startups | Y Combinator, essays | Startup advice, writing, clarity |
 | **Ray Dalio** | Principles | "Principles", Bridgewater | Culture, decision-making, systems |
+| **Roelof Botha** | Venture Capital | Sequoia Managing Partner, PayPal CFO | Fundraising, market sizing, company building |
 | **Sahil Bloom** | Frameworks/Content | 1M+ followers, "The Curiosity Chronicle" | Frameworks, content, personal brand |
-| **Sequoia Perspective** | Venture | Legendary VC, Arc of company building | Fundraising, market sizing, pitch |
 | **Seth Godin** | Marketing | "Purple Cow", permission marketing | Differentiation, tribes, being remarkable |
 | **Shreyas Doshi** | Product | LNO Framework, Stripe/Twitter PM | Prioritization, PM craft, pre-mortems |
 | **Steve Jobs** | Product/Design | Apple, radical simplification | Simplification, focus, design, saying no |
@@ -69,7 +70,6 @@ Quick reference for all available expert personas. See `config/work-type-mapping
 ### Strategy & Competitive Advantage
 - Geoffrey Moore (beachhead, positioning)
 - Hamilton Helmer (7 Powers, moats)
-- Sequoia Perspective (market, fundraising)
 - April Dunford (positioning, messaging)
 - Marc Andreessen (tech trends, disruption)
 
@@ -181,4 +181,4 @@ See `BACKLOG.md` for personas ready to be created on-demand.
 
 ---
 
-*Updated: 2026-01-12 | Total: 55 personas*
+*Updated: 2026-01-12 | Total: 56 personas*

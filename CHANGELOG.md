@@ -2,20 +2,38 @@
 
 All notable changes to the Expert Personas Framework.
 
+## [1.6.0] - 2026-01-13
+
+### Added
+- **Roelof Botha** - Sequoia Managing Partner, PayPal CFO, company building arcs, market sizing
+- **Bill Gurley** - Benchmark partner, Uber board, "All Revenue is Not Created Equal", marketplace expert
+
+### Removed
+- **Sequoia Perspective** - Replaced with real person (Roelof Botha)
+
+### New Work Types
+- `marketplace` - Marketplace strategy, platform dynamics, network effects
+- `unit-economics` - CAC/LTV, revenue quality analysis
+- `business-model` - Business model evaluation, defensibility
+- `investor-pitch` - Fundraising pitches, investor presentations
+
+### Updated Mappings
+- Replaced all "Sequoia Perspective" references with "Roelof Botha"
+- Added Bill Gurley to pricing, startup, competitive-strategy
+
+### Stats
+- Total personas: 56 (55 + 2 new - 1 removed)
+
 ## [1.5.0] - 2026-01-13
 
 ### Added - AI Expertise Expansion
-- **Andrej Karpathy** - Tesla AI Director, OpenAI founding member, AI educator, "Software 2.0"
-- **Andrew Ng** - DeepLearning.AI, Coursera, AI Transformation Playbook, data-centric AI
-- **Alexandr Wang** - Scale AI founder, AI infrastructure, "picks and shovels" of AI
-- **Dario Amodei** - Anthropic CEO, Constitutional AI, responsible AI development
+- **Andrej Karpathy** - Tesla AI Director, OpenAI, "Software 2.0", AI education
+- **Andrew Ng** - DeepLearning.AI, AI Transformation Playbook, data-centric AI
+- **Alexandr Wang** - Scale AI, "picks and shovels", enterprise AI infrastructure
+- **Dario Amodei** - Anthropic CEO, Constitutional AI, responsible AI
 
 ### New Work Types
-- `ai-product` - AI product development, implementation
-- `ai-transformation` - Enterprise AI adoption and strategy
-- `ai-infrastructure` - AI data, infrastructure, services
-- `ai-safety` - Responsible AI, alignment, governance
-- `ai-technical` - Neural networks, ML engineering
+- `ai-product`, `ai-transformation`, `ai-infrastructure`, `ai-safety`, `ai-technical`
 
 ### Stats
 - Total personas: 55 (up from 51)
@@ -23,13 +41,7 @@ All notable changes to the Expert Personas Framework.
 ## [1.4.0] - 2026-01-12
 
 ### Added - Sales Expertise Expansion
-- **Mark Roberge** - Built HubSpot sales 0→$100M+, data-driven sales hiring
-- **Jacco van der Kooij** - Winning by Design, SPICED methodology
-- **John McMahon** - Enterprise sales godfather, MEDDICC
-- **Meka Asonye** - First Round, founder-to-sales-team transitions
-
-### New Work Types
-- `sales-methodology`, `enterprise-sales`, `sales-hiring`, `founder-sales`
+- **Mark Roberge**, **Jacco van der Kooij**, **John McMahon**, **Meka Asonye**
 
 ### Stats
 - Total personas: 51 (up from 47)
@@ -37,10 +49,7 @@ All notable changes to the Expert Personas Framework.
 ## [1.3.0] - 2026-01-12
 
 ### Added
-- **David Sacks** - PayPal Mafia, Yammer, Craft Ventures, SaaS metrics
-
-### New Work Types
-- `saas-metrics`, `gtm-operations`
+- **David Sacks** - SaaS metrics, GTM operations
 
 ### Stats
 - Total personas: 47 (up from 46)
@@ -50,9 +59,6 @@ All notable changes to the Expert Personas Framework.
 ### Added
 - **Elena Verna**, **Emily Kramer**, **BJ Fogg**, **Cassie Kozyrkov**, **Lincoln Murphy**, **Sahil Bloom**
 
-### New Work Types
-- `plg`, `b2b-marketing`, `onboarding`, `activation`, `behavior-design`, `ai-strategy`, `customer-success`, `retention`, `frameworks`, `personal-brand`, `newsletter`
-
 ### Stats
 - Total personas: 46 (up from 40)
 
@@ -61,15 +67,11 @@ All notable changes to the Expert Personas Framework.
 ### Added
 - **Don Norman**, **Chris Voss**, **Nancy Duarte**, **Ben Horowitz**
 
-### New Work Types
-- `presentations`, `negotiation`, `ux`, `hard-decisions`, `crisis`
-
 ### Stats
 - Total personas: 40 (up from 36)
 
 ## [1.0.0] - 2026-01-12
 
 ### Initial Release
-- 36 expert personas from Nexus system
+- 36 expert personas
 - Work-type mappings, scripts, templates, workflows
-- Installation script for Nexus integration
