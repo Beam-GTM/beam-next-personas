@@ -5,10 +5,10 @@
 ## What's Included
 
 ### Core Personas System
-- **36+ expert personas** across multiple categories (B2B, Product, Operations, Content, etc.)
+- **55 expert personas** across multiple categories (AI, Sales, Product, Operations, Content, etc.)
 - **Selection scripts** - Filter and list personas by category/domain
 - **Suggestion script** - Get persona recommendations by work type
-- **Work-type mappings** - 25+ work types with recommended personas
+- **Work-type mappings** - 50+ work types with recommended personas
 - **Feedback loop workflow** - Iterative improvement process
 - **Persona template** - Create custom personas
 
@@ -54,40 +54,64 @@ python3 00-system/expert-personas/scripts/suggest_personas.py --work-type conten
 python3 00-system/expert-personas/scripts/select_personas.py --category b2b-enterprise
 ```
 
-## Personas Overview
+## Personas Overview (55 Total)
 
 ### Categories
 
 | Category | Personas | Best For |
 |----------|----------|----------|
-| **B2B Enterprise** | Geoffrey Moore, Aaron Ross, Patrick Campbell | GTM strategy, sales, pricing |
-| **Product & Growth** | Marty Cagan, Shreyas Doshi, Nikita Bier, Dan Horowitz | Product strategy, growth, PM craft |
-| **Operations & Leadership** | Andy Grove, Keith Rabois, Claire Hughes Johnson | Execution, hiring, org design |
-| **Process Optimization** | Eliyahu Goldratt, W. Edwards Deming | Workflows, bottlenecks, quality |
-| **Content & Influence** | Justin Welsh, Ethan Mollick, Steven Pinker | LinkedIn, thought leadership, writing |
-| **Innovation** | Elon Musk, Steve Jobs | Moonshots, first principles, design |
-| **Relationships** | Esther Perel, Kim Scott | Difficult conversations, feedback |
-| **Strategy** | Hamilton Helmer, Warren Buffett, Sequoia | Competitive advantage, fundraising |
+| **AI & Technology** | Andrej Karpathy, Andrew Ng, Alexandr Wang, Dario Amodei, Cassie Kozyrkov, Ethan Mollick | AI products, transformation, infrastructure, safety |
+| **Sales & GTM** | Aaron Ross, David Sacks, Mark Roberge, Jacco van der Kooij, John McMahon, Meka Asonye, Chris Voss | Sales process, methodology, enterprise, founder-led |
+| **B2B & Marketing** | Geoffrey Moore, April Dunford, Emily Kramer, Seth Godin, Patrick Campbell | GTM strategy, positioning, B2B marketing, pricing |
+| **Product & Growth** | Marty Cagan, Shreyas Doshi, Lenny Rachitsky, Elena Verna, Nikita Bier, BJ Fogg | Product strategy, PLG, growth, activation |
+| **Operations & Leadership** | Andy Grove, Keith Rabois, Claire Hughes Johnson, Frank Slootman | Execution, hiring, org design, turnarounds |
+| **Design & UX** | Don Norman, Julie Zhuo, Steve Jobs, Nancy Duarte | UX, human-centered design, presentations |
+| **Content & Influence** | Justin Welsh, Sahil Bloom, Steven Pinker, Paul Graham | LinkedIn, frameworks, writing, clarity |
 | **Engineering** | Will Larson, Camille Fournier, Kent Beck, John Carmack | Tech leadership, practices, performance |
-| **Decisions** | Charlie Munger, Annie Duke, Ray Dalio | Complex decisions, risk assessment |
+| **Decisions & Strategy** | Charlie Munger, Annie Duke, Ray Dalio, Hamilton Helmer, Warren Buffett | Complex decisions, competitive advantage |
+| **People & Culture** | Esther Perel, Kim Scott, Lincoln Murphy, Ben Horowitz | Conversations, feedback, customer success, hard decisions |
 
-### Work Types
+### Work Types (50+)
 
-The framework supports 25+ work types with smart persona recommendations:
+The framework supports 50+ work types with smart persona recommendations:
 
-- `content` - LinkedIn posts, articles, thought leadership
+**Strategy & GTM:**
 - `strategy` - GTM strategy, market entry, positioning
-- `execution-plan` - Action items, OKRs, roadmaps
+- `gtm-operations` - Sales/marketing alignment
+- `competitive-strategy` - Moats, competitive advantage
+- `messaging` - Value props, positioning statements
+
+**Sales:**
 - `sales` - Sales process, outreach, revenue
+- `sales-methodology` - SPICED, MEDDICC, deal execution
+- `enterprise-sales` - Complex, high-ACV deals
+- `founder-sales` - Founder-led to first sales hire
+- `negotiation` - Sales negotiations, contracts
+
+**Product & Growth:**
 - `product` - Product strategy, features, roadmap
-- `pricing` - Pricing strategy, packaging, value
-- `hiring` - Job descriptions, org design, team structure
-- `messaging` - Value props, taglines, positioning
-- `culture` - Values, team dynamics, rituals
+- `plg` - Product-led growth, freemium
+- `growth` - User acquisition, virality, retention
+- `onboarding` - User onboarding, activation
+- `pricing` - Pricing strategy, packaging
+
+**AI:**
+- `ai-strategy` - AI/ML decisions, when to use AI
+- `ai-product` - AI implementation, technical decisions
+- `ai-transformation` - Enterprise AI adoption
+- `ai-infrastructure` - AI data, services
+- `ai-safety` - Responsible AI, alignment
+
+**Operations:**
+- `execution-plan` - OKRs, roadmaps, action items
+- `operations` - Workflows, processes, efficiency
+- `saas-metrics` - Burn multiple, magic number, CAC
+
+**Content & Communication:**
+- `content` - LinkedIn posts, articles, thought leadership
+- `presentations` - Keynotes, pitch decks
 - `writing` - Documents, clarity, editing
-- `decision-making` - Complex decisions, risk assessment
-- `engineering` - Tech strategy, engineering org
-- ... and more
+- `personal-brand` - Audience building, creator economy
 
 See `config/work-type-mappings.yaml` for the complete list.
 
@@ -115,23 +139,22 @@ See `config/work-type-mappings.yaml` for the complete list.
 1. Detect work type + select personas
 2. Confirm once: "I'll run [personas] for up to [N] rounds. Go?"
 3. Review → Apply fixes → Re-review → Repeat until target
-4. Output improved version + score progression
+4. Output **new versioned file** (e.g., `doc-v2.md`) + score progression
 
 ## Repository Structure
 
 ```
 beam-next-personas/
 ├── README.md                    # This file
-├── VERSION                      # Current version
+├── VERSION                      # Current version (1.5.0)
 ├── CHANGELOG.md                 # Version history
 ├── install-standalone.sh        # Enhanced installer
 │
-├── expert-personas/             # Core personas system
-│   ├── personas/               # All persona files (36+)
-│   ├── scripts/                # Python scripts
-│   ├── config/                 
-│   ├── workflows/              
-│   └── templates/              
+├── personas/                    # All 55 persona files
+├── scripts/                     # Python scripts
+├── config/                      # Work-type mappings
+├── workflows/                   # Feedback loop workflow
+├── templates/                   # Persona template
 │
 └── skills/                      # Related skills
     ├── expert-review/
@@ -145,22 +168,17 @@ Follows semantic versioning (MAJOR.MINOR.PATCH):
 - **Minor**: New personas, new work types, new features
 - **Patch**: Bug fixes, documentation updates
 
-**Current version**: See `VERSION` file
+**Current version**: 1.5.0 (55 personas)
 
-**Check installed version**:
-```bash
-python3 00-system/expert-personas/scripts/check_version.py --path /path/to/nexus
-```
+**Version history:**
+- v1.5.0 - AI experts (Andrej Karpathy, Andrew Ng, Alexandr Wang, Dario Amodei)
+- v1.4.0 - Sales experts (Mark Roberge, Jacco van der Kooij, John McMahon, Meka Asonye)
+- v1.3.0 - David Sacks (SaaS metrics)
+- v1.2.0 - PLG & behavior (Elena Verna, BJ Fogg, Emily Kramer, Cassie Kozyrkov, Lincoln Murphy, Sahil Bloom)
+- v1.1.0 - Communication (Don Norman, Chris Voss, Nancy Duarte, Ben Horowitz)
+- v1.0.0 - Initial release (36 personas)
 
-**Compare versions**:
-```bash
-python3 00-system/expert-personas/scripts/check_version.py \
-  --path /path/to/nexus \
-  --available /path/to/beam-next-personas \
-  --format detailed
-```
-
-See `VERSIONING.md` for complete versioning guide.
+See `CHANGELOG.md` for detailed version history.
 
 ## Requirements
 
@@ -170,9 +188,10 @@ See `VERSIONING.md` for complete versioning guide.
 ## Contributing
 
 To add new personas:
-1. Use `scripts/generate_persona.py` or copy `templates/persona-template.md`
+1. Use `templates/persona-template.md`
 2. Research real expert with documented framework
-3. Add to appropriate category in `personas/`
+3. Add to `personas/`
 4. Update `config/work-type-mappings.yaml` if needed
+5. Update `personas/INDEX.md`
 
 **Quality bar**: Must be real person with published work, not generic role.
