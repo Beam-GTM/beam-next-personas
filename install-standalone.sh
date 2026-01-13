@@ -4,7 +4,7 @@
 #
 # Installs:
 #   - Expert personas system (00-system/expert-personas/)
-#   - Related skills (03-skills/expert-review/, expert-improve/)
+#   - Related skills (00-system/skills/expert-review/, expert-improve/)
 #
 # Usage:
 #   ./install-standalone.sh /path/to/target/nexus
@@ -75,10 +75,10 @@ fi
 
 # Create directories if they don't exist
 mkdir -p "$TARGET/00-system"
-mkdir -p "$TARGET/03-skills"
+mkdir -p "$TARGET/00-system/skills"
 
 PERSONAS_TARGET="$TARGET/00-system/expert-personas"
-SKILLS_TARGET="$TARGET/03-skills"
+SKILLS_TARGET="$TARGET/00-system/skills"
 
 echo "Source: $SCRIPT_DIR"
 echo "Target Nexus: $TARGET"
@@ -156,8 +156,8 @@ if [ ! -d "$SKILLS_SOURCE" ]; then
     echo -e "${YELLOW}⚠ Skills not found in source directory${NC}"
     echo "  Looking for: $SKILLS_SOURCE"
     echo "  Skills will be skipped. You can install them manually from:"
-    echo "    03-skills/expert-review/"
-    echo "    03-skills/expert-improve/"
+    echo "    00-system/skills/expert-review/"
+    echo "    00-system/skills/expert-improve/"
     SKIP_SKILLS=true
 else
     SKIP_SKILLS=false

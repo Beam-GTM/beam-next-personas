@@ -31,7 +31,7 @@ cd beam-next-personas
 
 The installer will:
 1. Install personas to `00-system/expert-personas/`
-2. Install skills to `03-skills/expert-review/` and `expert-improve/`
+2. Install skills to `00-system/skills/expert-review/` and `expert-improve/`
 3. Verify the installation
 4. Show usage instructions
 
