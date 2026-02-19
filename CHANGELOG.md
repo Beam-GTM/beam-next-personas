@@ -2,6 +2,23 @@
 
 All notable changes to the Expert Personas Framework.
 
+## [1.7.0] - 2026-02-19
+
+### Added
+- **Carles Reina** - ElevenLabs VP Sales, $0→$330M ARR in 3 years, 20x quota rule, land-and-expand
+- **Adam Grant** - Org Psychology, "Give and Take", givers/takers/matchers, dormant ties
+- **Keith Ferrazzi** - Networking, "Never Eat Alone", relationship action plans, CRM systems
+- **Reid Hoffman** - LinkedIn co-founder, "The Startup of You", network strategy, weak ties
+
+### New Work Types
+- `networking`, `relationship-management`
+
+### New Category
+- Networking & Relationship Management
+
+### Stats
+- Total personas: 64
+
 ## [1.6.1] - 2026-01-13
 
 ### Changed
