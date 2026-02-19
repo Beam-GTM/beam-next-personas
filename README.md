@@ -5,7 +5,7 @@
 ## What's Included
 
 ### Core Personas System
-- **55 expert personas** across multiple categories (AI, Sales, Product, Operations, Content, etc.)
+- **64 expert personas** across multiple categories (AI, Sales, Product, Operations, Content, Networking, etc.)
 - **Selection scripts** - Filter and list personas by category/domain
 - **Suggestion script** - Get persona recommendations by work type
 - **Work-type mappings** - 50+ work types with recommended personas
@@ -54,17 +54,18 @@ python3 00-system/expert-personas/scripts/suggest_personas.py --work-type conten
 python3 00-system/expert-personas/scripts/select_personas.py --category b2b-enterprise
 ```
 
-## Personas Overview (55 Total)
+## Personas Overview (64 Total)
 
 ### Categories
 
 | Category | Personas | Best For |
 |----------|----------|----------|
 | **AI & Technology** | Andrej Karpathy, Andrew Ng, Alexandr Wang, Dario Amodei, Cassie Kozyrkov, Ethan Mollick | AI products, transformation, infrastructure, safety |
-| **Sales & GTM** | Aaron Ross, David Sacks, Mark Roberge, Jacco van der Kooij, John McMahon, Meka Asonye, Chris Voss | Sales process, methodology, enterprise, founder-led |
+| **Sales & GTM** | Aaron Ross, Carles Reina, David Sacks, Mark Roberge, Jacco van der Kooij, John McMahon, Meka Asonye, Chris Voss | Sales process, AI-native sales, methodology, enterprise, founder-led |
 | **B2B & Marketing** | Geoffrey Moore, April Dunford, Emily Kramer, Seth Godin, Patrick Campbell | GTM strategy, positioning, B2B marketing, pricing |
 | **Product & Growth** | Marty Cagan, Shreyas Doshi, Lenny Rachitsky, Elena Verna, Nikita Bier, BJ Fogg | Product strategy, PLG, growth, activation |
 | **Operations & Leadership** | Andy Grove, Keith Rabois, Claire Hughes Johnson, Frank Slootman | Execution, hiring, org design, turnarounds |
+| **Networking & Relationships** | Keith Ferrazzi, Adam Grant, Reid Hoffman | Networking strategy, relationship management, weak ties |
 | **Design & UX** | Don Norman, Julie Zhuo, Steve Jobs, Nancy Duarte | UX, human-centered design, presentations |
 | **Content & Influence** | Justin Welsh, Sahil Bloom, Steven Pinker, Paul Graham | LinkedIn, frameworks, writing, clarity |
 | **Engineering** | Will Larson, Camille Fournier, Kent Beck, John Carmack | Tech leadership, practices, performance |
@@ -83,6 +84,7 @@ The framework supports 50+ work types with smart persona recommendations:
 
 **Sales:**
 - `sales` - Sales process, outreach, revenue
+- `ai-sales` - AI-native sales, PLG→enterprise, land-and-expand
 - `sales-methodology` - SPICED, MEDDICC, deal execution
 - `enterprise-sales` - Complex, high-ACV deals
 - `founder-sales` - Founder-led to first sales hire
@@ -112,6 +114,10 @@ The framework supports 50+ work types with smart persona recommendations:
 - `presentations` - Keynotes, pitch decks
 - `writing` - Documents, clarity, editing
 - `personal-brand` - Audience building, creator economy
+
+**Networking & Relationships:**
+- `networking` - Building professional networks, relationship strategy
+- `relationship-management` - CRM, keep-in-touch systems, dormant ties
 
 See `config/work-type-mappings.yaml` for the complete list.
 
@@ -150,7 +156,7 @@ beam-next-personas/
 ├── CHANGELOG.md                 # Version history
 ├── install-standalone.sh        # Enhanced installer
 │
-├── personas/                    # All 55 persona files
+├── personas/                    # All 64 persona files
 ├── scripts/                     # Python scripts
 ├── config/                      # Work-type mappings
 ├── workflows/                   # Feedback loop workflow
@@ -168,9 +174,11 @@ Follows semantic versioning (MAJOR.MINOR.PATCH):
 - **Minor**: New personas, new work types, new features
 - **Patch**: Bug fixes, documentation updates
 
-**Current version**: 1.5.0 (55 personas)
+**Current version**: 1.7.0 (64 personas)
 
 **Version history:**
+- v1.7.0 - Networking & AI sales (Carles Reina, Adam Grant, Keith Ferrazzi, Reid Hoffman)
+- v1.6.0 - Venture (Roelof Botha, Bill Gurley)
 - v1.5.0 - AI experts (Andrej Karpathy, Andrew Ng, Alexandr Wang, Dario Amodei)
 - v1.4.0 - Sales experts (Mark Roberge, Jacco van der Kooij, John McMahon, Meka Asonye)
 - v1.3.0 - David Sacks (SaaS metrics)

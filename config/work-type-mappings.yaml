@@ -1,6 +1,6 @@
 # Work Type → Persona Mappings
 # Used by suggest_personas.py to recommend experts for different work types
-# Updated: 2026-01-12 - Added Elena Verna, Emily Kramer, BJ Fogg, Cassie Kozyrkov, Lincoln Murphy, Sahil Bloom
+# Updated: 2026-02-19 - Added Carles Reina, Adam Grant, Keith Ferrazzi, Reid Hoffman
 
 content:
   description: "LinkedIn posts, articles, thought leadership"
@@ -36,8 +36,18 @@ sales:
     - Aaron Ross
     - Chris Voss
   supporting:
+    - Carles Reina
     - Geoffrey Moore
     - Patrick Campbell
+
+ai-sales:
+  description: "AI-native sales, PLG→enterprise, land-and-expand, AI product GTM"
+  primary:
+    - Carles Reina
+    - Aaron Ross
+  supporting:
+    - Mark Roberge
+    - David Sacks
 
 operations:
   description: "Workflows, processes, efficiency"
@@ -81,6 +91,7 @@ plg:
     - Elena Verna
     - Lenny Rachitsky
   supporting:
+    - Carles Reina
     - Nikita Bier
     - Patrick Campbell
 
@@ -547,3 +558,31 @@ investor-pitch:
   supporting:
     - Bill Gurley
     - Geoffrey Moore
+
+networking:
+  description: "Building professional networks, relationship strategy, conferences"
+  primary:
+    - Keith Ferrazzi
+    - Adam Grant
+    - Reid Hoffman
+  supporting:
+    - Sahil Bloom
+    - Justin Welsh
+
+relationship-management:
+  description: "CRM, keep-in-touch systems, dormant ties, relationship action plans"
+  primary:
+    - Keith Ferrazzi
+    - Adam Grant
+  supporting:
+    - Reid Hoffman
+    - Esther Perel
+
+land-and-expand:
+  description: "Self-serve to enterprise, expansion revenue, usage-based growth"
+  primary:
+    - Carles Reina
+    - Elena Verna
+  supporting:
+    - Lincoln Murphy
+    - Patrick Campbell
