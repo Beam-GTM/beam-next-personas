@@ -4,6 +4,12 @@ Personas ready to be created when needed. Say "create [persona name] persona" to
 
 ---
 
+## Networking & Relationships
+
+| Persona | Domain | Famous For | Priority |
+|---------|--------|------------|----------|
+| **Jordan Harbinger** | Networking Systems | "6-Minute Networking", The Jordan Harbinger Show | Medium |
+
 ## Leadership & Culture
 
 | Persona | Domain | Famous For | Priority |
